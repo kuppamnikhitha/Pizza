@@ -1,0 +1,87 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/user-menu"><i><strong>PizzaThirst</strong></i></a>
+  </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/Home">Home</a></li>
+         
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Pizza">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  
+  
+      <ul class="nav navbar-nav navbar-right">
+        <li href="/orders">Orders</li>
+  
+        <li><a href="/cart"  ><span class="glyphicon glyphicon-shopping-cart"></span> cart</a></li>
+  
+        <li><p class="navbar-text">Signed in</p></li>
+        <li>><button class="btn btn-default" (click)="onLogout()"><span class="glyphicon glyphicon-log-out"></span>LogOut</button></li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+          
+  
+    <div align="center">
+        <h1>Welcome to <i><strong>PizzaThirstSatisfy!</strong></i></h1>
+        <h2>Here's our weekly selection of pizzas.</h2>
+    </div>
+    
+    
+    <div class="row carousel-holder" align="center">
+        <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="88" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="91" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="93" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <div class="text-center"><b>Weekly Specials!</b></div>
+                        <img class="slide-image" src="https://cdn2.hubspot.net/hub/29066/file-13681898-jpg/images/istock_000013418237medium.jpg" alt="Home page picture">
+                    </div>
+                    <div class="item active">
+                        <div class="text-center"><b>Kebab Special</b></div>
+                        <a> 
+                            <img class="slide-image" src="http://2.bp.blogspot.com/_3cSn3Qz_4IA/THkYqKwGw1I/AAAAAAAAAPg/ybKpvRbjDWE/s1600/matsl%C3%A4kten+002.JPG" alt="Picture of Kebab Special">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="text-center"><b>Pescatore</b></div>
+                        <a > 
+                            <img class="slide-image" src="https://isinginthekitchen.files.wordpress.com/2014/07/dsc_0231.jpg" alt="Picture of Pescatore">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="text-center"><b>Hawaii</b></div>
+                        <a> 
+                            <img class="slide-image" src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Hawaiian_pizza_1.jpg" alt="Picture of Hawaii">
+                        </a>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+           
+        </div>
+      </div>
+  
